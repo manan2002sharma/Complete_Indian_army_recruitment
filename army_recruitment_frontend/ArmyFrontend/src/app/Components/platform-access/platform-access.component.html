@@ -1,0 +1,52 @@
+<!-- platform-access.component.html -->
+<!-- <div class="max-w-7xl mx-auto py-8 px-6 bg-white shadow-md rounded-lg">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">Platform Access Records</h1>
+  
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white border border-gray-200">
+        <thead>
+          <tr class="bg-gray-100 text-left text-sm font-semibold text-gray-700">
+            <th class="px-4 py-2 border-b">Platform ID</th>
+            <th class="px-4 py-2 border-b">Username</th>
+            <th class="px-4 py-2 border-b">Device Info</th>
+            <th class="px-4 py-2 border-b">Access Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let record of platformAccessList" class="border-b hover:bg-gray-50">
+            <td class="px-4 py-2">{{ record.platformId }}</td>
+            <td class="px-4 py-2">{{ record.userName }}</td>
+            <td class="px-4 py-2">{{ record.deviceinfo }}</td>
+            <td class="px-4 py-2">{{ record.accessDate | date:'short' }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+   -->
+
+   <div class="max-w-7xl mx-auto py-8 px-6 bg-white dark:bg-gray-900 shadow-md rounded-lg">
+    <h1 class="text-3xl font-bold text-gray-800 dark:text-white mb-6">Platform Access Records</h1>
+  
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
+        <thead>
+          <tr class="bg-gray-100 dark:bg-gray-700 text-left text-sm font-semibold text-gray-700 dark:text-white">
+            <th class="px-4 py-2 border-b dark:border-gray-600">Platform ID</th>
+            <th class="px-4 py-2 border-b dark:border-gray-600">Username</th>
+            <th class="px-4 py-2 border-b dark:border-gray-600">Device Info</th>
+            <th class="px-4 py-2 border-b dark:border-gray-600">Access Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let record of platformAccessList" class="border-b hover:bg-gray-50 dark:hover:bg-gray-700">
+            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">{{ record.platformId }}</td>
+            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">{{ record.userName }}</td>
+            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">{{ record.deviceinfo }}</td>
+            <td class="px-4 py-2 text-gray-700 dark:text-gray-300">{{ record.accessDate | date:'short' }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

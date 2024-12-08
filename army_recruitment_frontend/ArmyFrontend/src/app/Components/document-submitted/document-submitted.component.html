@@ -1,0 +1,95 @@
+<!-- 
+<div class="p-6 ">
+  <div class="bg-white border border-gray-300 rounded-lg shadow-md p-6 transition-all transform hover:scale-105 hover:shadow-lg">
+    <div class="flex flex-col items-center mb-4">
+      <h3 class="text-xl font-semibold text-gray-800">{{ document.documentType }}</h3>
+      <a 
+        href="{{ document.filePath }}" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="text-blue-500 underline text-sm break-all" 
+        [title]="document.filePath">
+        {{ document.filePath | slice: 0:20 }}{{ document.filePath.length > 20 ? '...' : '' }}
+      </a>
+    </div>
+    <div class=" space-y-4">
+      <div class="w-full flex flex-row">
+        <h4 class="text-lg font-medium text-gray-800">Submission Date:</h4>
+        <p class="text-sm text-gray-600 pt-1.5 pl-2">{{ document.submissionDate | date: 'medium' }}</p>
+      </div>
+      <div class="w-full flex flex-row">
+        <h4 class="text-lg font-medium text-gray-800">Remark:</h4>
+        <p class="text-sm text-gray-600 pt-1.5 pl-2">{{ document.remarks || 'No Remarks Provided' }}</p>
+      </div>
+      <div class="w-full flex flex-row">
+        <h4 class="text-lg font-medium text-gray-800">Verification Status:</h4>
+        <p class="text-sm text-gray-600 pt-1.5 pl-2">{{ document.verificationStatus || 'Pending' }}</p>
+      </div>
+    </div>
+    <div *ngIf="isEditable" class="mt-6">
+      <div>
+        <h4 class="text-lg font-medium text-gray-800 mb-2">Update Remark:</h4>
+        <textarea [(ngModel)]="document.remarks" class="w-full p-2 border rounded-md" rows="3" placeholder="Add remarks here"></textarea>
+      </div>
+      <div class="mt-4">
+        <h4 class="text-lg font-medium text-gray-800 mb-2">Update Verification Status:</h4>
+        <select [(ngModel)]="document.verificationStatus" class="w-full p-2 border rounded-md">
+          <option value="pending">Pending</option>
+          <option value="verified">Verified</option>
+          <option value="rejected">Rejected</option>
+        </select>
+      </div>
+      <button (click)="updateDocument()" class="mt-6 bg-blue-500 text-white font-medium px-6 py-2 rounded-lg hover:bg-blue-600">
+        Update Document
+      </button>
+    </div>
+  </div>
+</div> -->
+
+<div class="p-6">
+  <div class="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg shadow-md p-6 transition-all transform hover:scale-105 hover:shadow-lg">
+    <div class="flex flex-col items-center mb-4">
+      <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100">{{ document.documentType }}</h3>
+      <a 
+        href="{{ document.filePath }}" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="text-blue-500 dark:text-blue-300 underline text-sm break-all" 
+        [title]="document.filePath">
+        {{ document.filePath | slice: 0:20 }}{{ document.filePath.length > 20 ? '...' : '' }}
+      </a>
+    </div>
+    <div class="space-y-4">
+      <div class="w-full flex flex-row">
+        <h4 class="text-lg font-medium text-gray-800 dark:text-gray-100">Submission Date:</h4>
+        <p class="text-sm text-gray-600 dark:text-gray-400 pt-1.5 pl-2">{{ document.submissionDate | date: 'medium' }}</p>
+      </div>
+      <div class="w-full flex flex-row">
+        <h4 class="text-lg font-medium text-gray-800 dark:text-gray-100">Remark:</h4>
+        <p class="text-sm text-gray-600 dark:text-gray-400 pt-1.5 pl-2">{{ document.remarks || 'No Remarks Provided' }}</p>
+      </div>
+      <div class="w-full flex flex-row">
+        <h4 class="text-lg font-medium text-gray-800 dark:text-gray-100">Verification Status:</h4>
+        <p class="text-sm text-gray-600 dark:text-gray-400 pt-1.5 pl-2">{{ document.verificationStatus || 'Pending' }}</p>
+      </div>
+    </div>
+    <div *ngIf="isEditable" class="mt-6">
+      <div>
+        <h4 class="text-lg font-medium text-gray-800 dark:text-gray-100 mb-2">Update Remark:</h4>
+        <textarea [(ngModel)]="document.remarks" class="w-full p-2 border dark:border-gray-600 dark:bg-gray-700 rounded-md" rows="3" placeholder="Add remarks here"></textarea>
+      </div>
+      <div class="mt-4">
+        <h4 class="text-lg font-medium text-gray-800 dark:text-gray-100 mb-2">Update Verification Status:</h4>
+        <select [(ngModel)]="document.verificationStatus" class="w-full p-2 border dark:border-gray-600 dark:bg-gray-700 rounded-md">
+          <option value="pending">Pending</option>
+          <option value="verified">Verified</option>
+          <option value="rejected">Rejected</option>
+        </select>
+      </div>
+      <button (click)="updateDocument()" class="mt-6 bg-blue-500 text-white font-medium px-6 py-2 rounded-lg hover:bg-blue-600 dark:bg-blue-700 dark:hover:bg-blue-600">
+        Update Document
+      </button>
+    </div>
+  </div>
+</div>
+

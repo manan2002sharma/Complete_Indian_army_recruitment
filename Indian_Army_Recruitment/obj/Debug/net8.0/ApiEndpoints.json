@@ -1,0 +1,934 @@
+[
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.ApplicationController",
+    "Method": "GetApplicationById",
+    "RelativePath": "api/Application/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.ApplicationController",
+    "Method": "AddApplication",
+    "RelativePath": "api/Application/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "application",
+        "Type": "Indian_Army_Recruitment.Models.Application",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.ApplicationController",
+    "Method": "GetAllApplications",
+    "RelativePath": "api/Application/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.ApplicationController",
+    "Method": "DeleteApplication",
+    "RelativePath": "api/Application/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.ApplicationController",
+    "Method": "UpdateApplication",
+    "RelativePath": "api/Application/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "application",
+        "Type": "Indian_Army_Recruitment.Models.Application",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.ApplicationController",
+    "Method": "GetApplicationsByUserId",
+    "RelativePath": "api/Application/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.ApplicationController",
+    "Method": "GetApplicationsByVacancyId",
+    "RelativePath": "api/Application/vacancyId/{vacancyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacancyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateDocumentController",
+    "Method": "AddCandidateDocument",
+    "RelativePath": "api/CandidateDocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidateDocument",
+        "Type": "Indian_Army_Recruitment.Models.CandidateDocument",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateDocumentController",
+    "Method": "GetAllCandidateDocuments",
+    "RelativePath": "api/CandidateDocument",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateDocumentController",
+    "Method": "GetCandidateDocumentById",
+    "RelativePath": "api/CandidateDocument/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateDocumentController",
+    "Method": "UpdateCandidateDocument",
+    "RelativePath": "api/CandidateDocument/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "candidateDocument",
+        "Type": "Indian_Army_Recruitment.Models.CandidateDocument",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateDocumentController",
+    "Method": "DeleteCandidateDocument",
+    "RelativePath": "api/CandidateDocument/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateDocumentController",
+    "Method": "GetCandidateDocumentByApplicationId",
+    "RelativePath": "api/CandidateDocument/applicationId/{applicationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateProfileController",
+    "Method": "AddCandidateProfile",
+    "RelativePath": "api/CandidateProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DOB",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Qualifications",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Experience",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfilePicture",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MilitaryBackground",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "State",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "profilePicture",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateProfileController",
+    "Method": "UpdateCandidateProfile",
+    "RelativePath": "api/CandidateProfile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DOB",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Qualifications",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Experience",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfilePicture",
+        "Type": "System.Byte[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MilitaryBackground",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "State",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "profilePicture",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateProfileController",
+    "Method": "GetProfileByUserId",
+    "RelativePath": "api/CandidateProfile/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.CandidateProfileController",
+    "Method": "DeleteCandidateProfile",
+    "RelativePath": "api/CandidateProfile/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.RequiredDocumentController",
+    "Method": "GetAllRequiredDocuments",
+    "RelativePath": "api/RequiredDocument",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.RequiredDocumentController",
+    "Method": "AddRequiredDocument",
+    "RelativePath": "api/RequiredDocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requiredDocument",
+        "Type": "Indian_Army_Recruitment.Models.RequiredDocument",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.RequiredDocumentController",
+    "Method": "GetRequiredDocumentById",
+    "RelativePath": "api/RequiredDocument/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.RequiredDocumentController",
+    "Method": "UpdateRequiredDocument",
+    "RelativePath": "api/RequiredDocument/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "requiredDocument",
+        "Type": "Indian_Army_Recruitment.Models.RequiredDocument",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.RequiredDocumentController",
+    "Method": "DeleteRequiredDocument",
+    "RelativePath": "api/RequiredDocument/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.RequiredDocumentController",
+    "Method": "GetRequiredDocumentsByVacancyId",
+    "RelativePath": "api/RequiredDocument/vacancy/{vacancyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacancyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TestController",
+    "Method": "AddTest",
+    "RelativePath": "api/Test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "test",
+        "Type": "Indian_Army_Recruitment.Models.Test",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TestController",
+    "Method": "GetAllTests",
+    "RelativePath": "api/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TestController",
+    "Method": "GetTestById",
+    "RelativePath": "api/Test/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TestController",
+    "Method": "UpdateTest",
+    "RelativePath": "api/Test/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedTest",
+        "Type": "Indian_Army_Recruitment.Models.Test",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TestController",
+    "Method": "DeleteTest",
+    "RelativePath": "api/Test/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TestController",
+    "Method": "GetTestsByApplicationId",
+    "RelativePath": "api/Test/by-application/{applicationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TrainingProgramController",
+    "Method": "AddTrainingProgram",
+    "RelativePath": "api/TrainingProgram",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trainingProgram",
+        "Type": "Indian_Army_Recruitment.Models.TrainingProgram",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TrainingProgramController",
+    "Method": "GetAllTrainingPrograms",
+    "RelativePath": "api/TrainingProgram",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TrainingProgramController",
+    "Method": "GetTrainingProgramById",
+    "RelativePath": "api/TrainingProgram/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TrainingProgramController",
+    "Method": "UpdateTrainingProgram",
+    "RelativePath": "api/TrainingProgram/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "trainingProgram",
+        "Type": "Indian_Army_Recruitment.Models.TrainingProgram",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TrainingProgramController",
+    "Method": "DeleteTrainingProgram",
+    "RelativePath": "api/TrainingProgram/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.TrainingProgramController",
+    "Method": "GetTrainingProgramsByApplicationId",
+    "RelativePath": "api/TrainingProgram/by-application/{applicationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.UserController",
+    "Method": "GetAllPlatformAccess",
+    "RelativePath": "api/User/GetAllPlatformAccess/PlatformAccess",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "Indian_Army_Recruitment.Models.LoginCredentials",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.UserController",
+    "Method": "Signup",
+    "RelativePath": "api/User/Signup/signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Indian_Army_Recruitment.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyController",
+    "Method": "AddVacancy",
+    "RelativePath": "api/Vacancy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacancy",
+        "Type": "Indian_Army_Recruitment.Models.Vacancy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyController",
+    "Method": "UpdateVacancy",
+    "RelativePath": "api/Vacancy/{vacancyId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacancyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "vacancy",
+        "Type": "Indian_Army_Recruitment.Models.Vacancy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyController",
+    "Method": "GetVacancyById",
+    "RelativePath": "api/Vacancy/{vacancyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacancyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyController",
+    "Method": "DeleteVacancy",
+    "RelativePath": "api/Vacancy/{vacancyId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacancyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyController",
+    "Method": "GetAllVacancies",
+    "RelativePath": "api/Vacancy/ForUser/{UserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyAnalysisController",
+    "Method": "GetVacancyAnalysis",
+    "RelativePath": "api/VacancyAnalysis/{vacancyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacancyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamController",
+    "Method": "AddVacancyExam",
+    "RelativePath": "api/VacancyExam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacancyExam",
+        "Type": "Indian_Army_Recruitment.Models.VacancyExam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamController",
+    "Method": "GetVacancyExamById",
+    "RelativePath": "api/VacancyExam/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamController",
+    "Method": "UpdateVacancyExam",
+    "RelativePath": "api/VacancyExam/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "vacancyExam",
+        "Type": "Indian_Army_Recruitment.Models.VacancyExam",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamController",
+    "Method": "DeleteVacancyExam",
+    "RelativePath": "api/VacancyExam/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamController",
+    "Method": "GetVacancyExamsByVacancyId",
+    "RelativePath": "api/VacancyExam/vacancy/{vacancyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacancyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamResultController",
+    "Method": "AddVacancyExamResult",
+    "RelativePath": "api/VacancyExamResult",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examResult",
+        "Type": "Indian_Army_Recruitment.Models.VacancyExamResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamResultController",
+    "Method": "GetAllVacancyExamResults",
+    "RelativePath": "api/VacancyExamResult",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamResultController",
+    "Method": "GetVacancyExamResultById",
+    "RelativePath": "api/VacancyExamResult/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamResultController",
+    "Method": "DeleteVacancyExamResult",
+    "RelativePath": "api/VacancyExamResult/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Indian_Army_Recruitment.Controllers.VacancyExamResultController",
+    "Method": "GetResultsByApplicationId",
+    "RelativePath": "api/VacancyExamResult/by-application/{applicationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

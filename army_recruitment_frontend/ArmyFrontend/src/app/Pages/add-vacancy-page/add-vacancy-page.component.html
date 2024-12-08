@@ -1,0 +1,166 @@
+<!-- <div class="max-w-4xl mx-auto p-6 shadow-lg">
+    <h2 class="text-2xl font-semibold mb-4">Add Vacancy</h2>
+    
+    <div class="space-y-4">
+      <div class="flex flex-col">
+        <label for="title" class="text-gray-700">Title</label>
+        <input id="title" type="text" [(ngModel)]="vacancy.title" class="border rounded px-3 py-2" placeholder="Vacancy Title" />
+      </div>
+      
+      <div class="flex flex-col">
+        <label for="role" class="text-gray-700">Role</label>
+        <input id="role" type="text" [(ngModel)]="vacancy.role" class="border rounded px-3 py-2" placeholder="Role" />
+      </div>
+      
+      <div class="flex flex-col">
+        <label for="eligibilityCriteria" class="text-gray-700">Eligibility Criteria</label>
+        <textarea id="eligibilityCriteria" [(ngModel)]="vacancy.eligibilityCriteria" class="border rounded px-3 py-2" placeholder="Eligibility Criteria"></textarea>
+      </div>
+      
+      <div class="flex flex-col">
+        <label for="location" class="text-gray-700">Location</label>
+        <input id="location" type="text" [(ngModel)]="vacancy.location" class="border rounded px-3 py-2" placeholder="Location" />
+      </div>
+      
+      <div class="flex flex-col">
+        <label for="salary" class="text-gray-700">Salary</label>
+        <input id="salary" type="number" [(ngModel)]="vacancy.salary" class="border rounded px-3 py-2" placeholder="Salary" />
+      </div>
+      
+      <div class="flex flex-col">
+        <label for="status" class="text-gray-700">Status</label>
+        <select id="status" [(ngModel)]="vacancy.status" class="border rounded px-3 py-2">
+          <option value="open">Open</option>
+          <option value="closed">Closed</option>
+        </select>
+      </div>
+    </div>
+  
+    <div class="mt-6">
+      <h3 class="text-xl font-semibold mb-4">Vacancy Exams</h3>
+      <div *ngFor="let exam of vacancyExams; let i = index" class="space-y-4 pb-4 border-b-4">
+        <div class="flex flex-col">
+          <label for="examName" class="text-gray-700">Exam Name</label>
+          <input type="text" [(ngModel)]="exam.examName" class="border rounded px-3 py-2" placeholder="Exam Name" />
+        </div>
+        <div class="flex flex-col">
+          <label for="examDate" class="text-gray-700">Exam Date</label>
+          <input type="date" [(ngModel)]="exam.examDate" class="border rounded px-3 py-2" />
+        </div>
+        <div class="flex flex-col">
+          <label for="totalMarks" class="text-gray-700">Total Marks</label>
+          <input type="number" [(ngModel)]="exam.totalMarks" class="border rounded px-3 py-2" placeholder="Total Marks" />
+        </div>
+        <div class="flex flex-col">
+          <label for="passingCriteria" class="text-gray-700">Passing Criteria</label>
+          <input type="number" [(ngModel)]="exam.passingCriteria" class="border rounded px-3 py-2" placeholder="Passing Criteria" />
+        </div>
+      </div>
+      <button type="button" (click)="addExam()" class="px-4 py-2  mt-2 bg-green-700 text-white font-semibold rounded-lg hover:bg-green-600 ml-2">+ Add Another Exam</button>
+    </div>
+  
+<div class="mt-6">
+    <h3 class="text-xl font-semibold mb-4">Required Documents</h3>
+    <div *ngFor="let doc of requiredDocuments; let i = index" class="space-y-4 pb-4 border-b-4">
+    <div class="flex flex-col">
+        <label for="documentType" class="text-gray-700">Document Type</label>
+        <input type="text" [(ngModel)]="doc.documentType" class="border rounded px-3 py-2" placeholder="Document Type" />
+    </div>
+    <div class="flex flex-col">
+        <label for="description" class="text-gray-700">Description</label>
+        <textarea [(ngModel)]="doc.description" class="border rounded px-3 py-2" placeholder="Description"></textarea>
+    </div>
+    </div>
+    <button type="button" (click)="addDocument()" class="px-4 py-2  mt-2 bg-green-700 text-white font-semibold rounded-lg hover:bg-green-600 ml-2">+ Add Another Document</button>
+</div>
+
+<div class="mt-6 text-center">
+    <button (click)="submit()" class="w-full bg-white-500 text-black p-2 rounded-md shadow-md transition-transform transform hover:scale-105  border border-black">Submit</button>
+</div>
+</div> -->
+  
+
+<div class="max-w-4xl mx-auto p-6 shadow-md dark:bg-gray-900 dark:text-white">
+  <h2 class="text-2xl font-semibold mb-4 dark:text-gray-100">Add Vacancy</h2>
+  
+  <!-- Vacancy Form -->
+  <div class="space-y-4">
+    <div class="flex flex-col">
+      <label for="title" class="text-gray-700 dark:text-gray-300">Title</label>
+      <input id="title" type="text" [(ngModel)]="vacancy.title" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Vacancy Title" />
+    </div>
+    
+    <div class="flex flex-col">
+      <label for="role" class="text-gray-700 dark:text-gray-300">Role</label>
+      <input id="role" type="text" [(ngModel)]="vacancy.role" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Role" />
+    </div>
+    
+    <div class="flex flex-col">
+      <label for="eligibilityCriteria" class="text-gray-700 dark:text-gray-300">Eligibility Criteria</label>
+      <textarea id="eligibilityCriteria" [(ngModel)]="vacancy.eligibilityCriteria" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Eligibility Criteria"></textarea>
+    </div>
+    
+    <div class="flex flex-col">
+      <label for="location" class="text-gray-700 dark:text-gray-300">Location</label>
+      <input id="location" type="text" [(ngModel)]="vacancy.location" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Location" />
+    </div>
+    
+    <div class="flex flex-col">
+      <label for="salary" class="text-gray-700 dark:text-gray-300">Salary</label>
+      <input id="salary" type="number" [(ngModel)]="vacancy.salary" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Salary" />
+    </div>
+    
+    <div class="flex flex-col">
+      <label for="status" class="text-gray-700 dark:text-gray-300">Status</label>
+      <select id="status" [(ngModel)]="vacancy.status" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
+        <option value="open">Open</option>
+        <option value="closed">Closed</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Vacancy Exams Form -->
+  <div class="mt-6">
+    <h3 class="text-xl font-semibold mb-4 dark:text-gray-100">Vacancy Exams</h3>
+    <div *ngFor="let exam of vacancyExams; let i = index" class="space-y-4 pb-4 border-b-4 dark:border-gray-700">
+      <div class="flex flex-col">
+        <label for="examName" class="text-gray-700 dark:text-gray-300">Exam Name</label>
+        <input type="text" [(ngModel)]="exam.examName" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Exam Name" />
+      </div>
+      <div class="flex flex-col">
+        <label for="examDate" class="text-gray-700 dark:text-gray-300">Exam Date</label>
+        <input type="date" [(ngModel)]="exam.examDate" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" />
+      </div>
+      <div class="flex flex-col">
+        <label for="totalMarks" class="text-gray-700 dark:text-gray-300">Total Marks</label>
+        <input type="number" [(ngModel)]="exam.totalMarks" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Total Marks" />
+      </div>
+      <div class="flex flex-col">
+        <label for="passingCriteria" class="text-gray-700 dark:text-gray-300">Passing Criteria</label>
+        <input type="number" [(ngModel)]="exam.passingCriteria" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Passing Criteria" />
+      </div>
+    </div>
+    <button type="button" (click)="addExam()" class="px-4 py-2 mt-2 bg-green-700 text-white font-semibold rounded-lg hover:bg-green-600 ml-2 dark:bg-green-800 dark:hover:bg-green-700">+ Add Another Exam</button>
+  </div>
+
+  <!-- Required Documents Form -->
+  <div class="mt-6">
+    <h3 class="text-xl font-semibold mb-4 dark:text-gray-100">Required Documents</h3>
+    <div *ngFor="let doc of requiredDocuments; let i = index" class="space-y-4 pb-4 border-b-4 dark:border-gray-700">
+      <div class="flex flex-col">
+        <label for="documentType" class="text-gray-700 dark:text-gray-300">Document Type</label>
+        <input type="text" [(ngModel)]="doc.documentType" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Document Type" />
+      </div>
+      <div class="flex flex-col">
+        <label for="description" class="text-gray-700 dark:text-gray-300">Description</label>
+        <textarea [(ngModel)]="doc.description" class="border rounded px-3 py-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white" placeholder="Description"></textarea>
+      </div>
+    </div>
+    <button type="button" (click)="addDocument()" class="px-4 py-2 mt-2 bg-green-700 text-white font-semibold rounded-lg hover:bg-green-600 ml-2 dark:bg-green-800 dark:hover:bg-green-700">+ Add Another Document</button>
+  </div>
+
+  <!-- Submit Button -->
+  <div class="mt-6 text-center">
+    <button (click)="submit()" class="w-full bg-white text-black p-2 rounded-md shadow-md transition-transform transform hover:scale-105 border border-black dark:bg-gray-800 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700">Submit</button>
+  </div>
+</div>

@@ -1,0 +1,1406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\vacancyanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\vacancyanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\ivacancyanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\ivacancyanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\icandidateprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\icandidateprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Migrations\\20241208040812_NewMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241208040812_NewMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\vacancyexamresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\vacancyexamresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\vacancyexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\vacancyexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\vacancycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\vacancycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\vacancyanalysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\vacancyanalysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\trainingprogramcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\trainingprogramcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\requireddocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\requireddocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\candidateprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\candidateprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\candidatedocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\candidatedocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\vacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\vacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\candidatedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\candidatedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\trainingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\trainingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\examresultanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\examresultanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\requireddocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\requireddocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\vacancyexamresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\vacancyexamresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\vacancyexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\vacancyexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\vacancyexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\vacancyexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\ivacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\ivacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\vacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\vacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\trainingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\trainingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\candidatedocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\candidatedocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\applicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\testrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\documentverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\documentverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\platformaccessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\platformaccessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\documentverificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\documentverificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\platformaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\platformaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\platformaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\platformaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\iplatformaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\iplatformaccessservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\iplatformaccessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\iplatformaccessrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\logincredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\logincredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\candidateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\candidateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\stateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\stateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\statusresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\statusresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\candidateprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\candidateprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\vacancyexamresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\vacancyexamresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\models\\vacancyanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:models\\vacancyanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\candidateprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\candidateprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\itestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\itestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\candidatedocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\candidatedocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\trainingprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\trainingprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\iapplicationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\itrainingprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\itrainingprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\itrainingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\itrainingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\irequireddocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\irequireddocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\itestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\ivacancyexamresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\ivacancyexamresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\vacancyexamresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\vacancyexamresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241203180811_ThirdMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241201173509_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241130190313_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241130185412_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241130184208_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\icandidatedocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\icandidatedocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\icandidatedocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\icandidatedocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\ivacancyexamresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\ivacancyexamresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repos\\requireddocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repos\\requireddocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\serviceinterfaces\\ivacancyexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\serviceinterfaces\\ivacancyexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\vacancyexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\vacancyexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\requireddocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\requireddocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\ivacancyexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\ivacancyexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\icandidateprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\icandidateprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\irequireddocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\irequireddocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\services\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:services\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\idocumentverificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\idocumentverificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\repositories\\repointerfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:repositories\\repointerfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|f:\\indian_army_recruitment\\indian_army_recruitment\\indian_army_recruitment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{53EA364D-D035-4F15-9CCF-AF5080D345C2}|Indian_Army_Recruitment.csproj|solutionrelative:indian_army_recruitment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\ApplicationService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\ApplicationService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\ApplicationService.cs",
+              "RelativeToolTip": "Services\\Service\\ApplicationService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:54:31.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICandidateProfileService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\ICandidateProfileService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\ICandidateProfileService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\ICandidateProfileService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\ICandidateProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:39:17.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\IEmailService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IEmailService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:27:26.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IVacancyAnalysisService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IVacancyAnalysisService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\IVacancyAnalysisService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IVacancyAnalysisService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\IVacancyAnalysisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:51:05.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VacancyAnalysisService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\VacancyAnalysisService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\VacancyAnalysisService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\VacancyAnalysisService.cs",
+              "RelativeToolTip": "Services\\Service\\VacancyAnalysisService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv0QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:41:45.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241208040812_NewMigration.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Migrations\\20241208040812_NewMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241208040812_NewMigration.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Migrations\\20241208040812_NewMigration.cs",
+              "RelativeToolTip": "Migrations\\20241208040812_NewMigration.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwBAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T04:08:12.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:57:12.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:59:13.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VacancyExamResultController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\VacancyExamResultController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VacancyExamResultController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\VacancyExamResultController.cs",
+              "RelativeToolTip": "Controllers\\VacancyExamResultController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwBQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:46:41.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VacancyExamController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\VacancyExamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VacancyExamController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\VacancyExamController.cs",
+              "RelativeToolTip": "Controllers\\VacancyExamController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwDIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:40:38.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VacancyController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\VacancyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VacancyController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\VacancyController.cs",
+              "RelativeToolTip": "Controllers\\VacancyController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwEwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:23:48.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VacancyAnalysisController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\VacancyAnalysisController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VacancyAnalysisController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\VacancyAnalysisController.cs",
+              "RelativeToolTip": "Controllers\\VacancyAnalysisController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:52:02.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TrainingProgramController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\TrainingProgramController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TrainingProgramController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\TrainingProgramController.cs",
+              "RelativeToolTip": "Controllers\\TrainingProgramController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA9wFcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:12:47.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RequiredDocumentController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\RequiredDocumentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RequiredDocumentController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\RequiredDocumentController.cs",
+              "RelativeToolTip": "Controllers\\RequiredDocumentController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:11:43.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CandidateProfileController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\CandidateProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CandidateProfileController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\CandidateProfileController.cs",
+              "RelativeToolTip": "Controllers\\CandidateProfileController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:41:24.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CandidateDocumentController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\CandidateDocumentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CandidateDocumentController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\CandidateDocumentController.cs",
+              "RelativeToolTip": "Controllers\\CandidateDocumentController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:11:26.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApplicationController.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "Controllers\\ApplicationController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T04:15:20.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAArwCgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:11:00.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VacancyRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\VacancyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\VacancyRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\VacancyRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\VacancyRepository.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAADwv4sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:53:40.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TrainingProgram.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\TrainingProgram.cs",
+              "RelativeDocumentMoniker": "Models\\TrainingProgram.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\TrainingProgram.cs",
+              "RelativeToolTip": "Models\\TrainingProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:59:33.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExamResultAnalysis.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\ExamResultAnalysis.cs",
+              "RelativeDocumentMoniker": "Models\\ExamResultAnalysis.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\ExamResultAnalysis.cs",
+              "RelativeToolTip": "Models\\ExamResultAnalysis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:33:55.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Test.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\Test.cs",
+              "RelativeDocumentMoniker": "Models\\Test.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\Test.cs",
+              "RelativeToolTip": "Models\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:49:19.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RequiredDocument.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\RequiredDocument.cs",
+              "RelativeDocumentMoniker": "Models\\RequiredDocument.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\RequiredDocument.cs",
+              "RelativeToolTip": "Models\\RequiredDocument.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:41:26.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CandidateDocument.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\CandidateDocument.cs",
+              "RelativeDocumentMoniker": "Models\\CandidateDocument.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\CandidateDocument.cs",
+              "RelativeToolTip": "Models\\CandidateDocument.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wBIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:57:12.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Application.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\Application.cs",
+              "RelativeDocumentMoniker": "Models\\Application.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\Application.cs",
+              "RelativeToolTip": "Models\\Application.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:49:02.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VacancyExamResult.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\VacancyExamResult.cs",
+              "RelativeDocumentMoniker": "Models\\VacancyExamResult.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\VacancyExamResult.cs",
+              "RelativeToolTip": "Models\\VacancyExamResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:34:14.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Vacancy.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\Vacancy.cs",
+              "RelativeDocumentMoniker": "Models\\Vacancy.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\Vacancy.cs",
+              "RelativeToolTip": "Models\\Vacancy.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:48:49.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "VacancyExam.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\VacancyExam.cs",
+              "RelativeDocumentMoniker": "Models\\VacancyExam.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\VacancyExam.cs",
+              "RelativeToolTip": "Models\\VacancyExam.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:25:36.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VacancyExamRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\VacancyExamRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\VacancyExamRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\VacancyExamRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\VacancyExamRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:12:03.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IApplicationService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IApplicationService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\IApplicationService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IApplicationService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\IApplicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:54:54.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:48:31.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IVacancyRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IVacancyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\IVacancyRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IVacancyRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\IVacancyRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAhwBAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:53:11.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "VacancyService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\VacancyService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\VacancyService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\VacancyService.cs",
+              "RelativeToolTip": "Services\\Service\\VacancyService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:10:43.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IVacancyService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IVacancyService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\IVacancyService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IVacancyService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\IVacancyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T18:16:00.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TrainingProgramRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\TrainingProgramRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\TrainingProgramRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\TrainingProgramRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\TrainingProgramRepository.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAUwGAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:54:47.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\UserRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\UserRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAArwEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:45:45.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CandidateDocumentRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\CandidateDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\CandidateDocumentRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\CandidateDocumentRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\CandidateDocumentRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:00:40.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApplicationRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\ApplicationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\ApplicationRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\ApplicationRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\ApplicationRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:16:30.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TestRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\TestRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\TestRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\TestRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\TestRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:50:35.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\EmailService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\EmailService.cs",
+              "RelativeToolTip": "Services\\Service\\EmailService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywCYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:59:13.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-30T18:15:15.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:59:51.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DocumentVerification.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\DocumentVerification.cs",
+              "RelativeDocumentMoniker": "Models\\DocumentVerification.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\DocumentVerification.cs",
+              "RelativeToolTip": "Models\\DocumentVerification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:50:59.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PlatformAccessService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\PlatformAccessService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\PlatformAccessService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\PlatformAccessService.cs",
+              "RelativeToolTip": "Services\\Service\\PlatformAccessService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:58:30.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PlatformAccessRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\PlatformAccessRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\PlatformAccessRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\PlatformAccessRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\PlatformAccessRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:57:13.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DocumentVerificationRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\DocumentVerificationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\DocumentVerificationRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\DocumentVerificationRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\DocumentVerificationRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwCIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:59:54.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PlatformAccess.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\PlatformAccess.cs",
+              "RelativeDocumentMoniker": "Models\\PlatformAccess.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\PlatformAccess.cs",
+              "RelativeToolTip": "Models\\PlatformAccess.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:04:28.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IPlatformAccessService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IPlatformAccessService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\IPlatformAccessService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IPlatformAccessService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\IPlatformAccessService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:59:13.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IPlatformAccessRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IPlatformAccessRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\IPlatformAccessRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IPlatformAccessRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\IPlatformAccessRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:56:25.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginCredentials.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\LoginCredentials.cs",
+              "RelativeDocumentMoniker": "Models\\LoginCredentials.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\LoginCredentials.cs",
+              "RelativeToolTip": "Models\\LoginCredentials.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:55:57.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "StateResult.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\StateResult.cs",
+              "RelativeDocumentMoniker": "Models\\StateResult.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\StateResult.cs",
+              "RelativeToolTip": "Models\\StateResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:32:44.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "StatusResult.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\StatusResult.cs",
+              "RelativeDocumentMoniker": "Models\\StatusResult.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\StatusResult.cs",
+              "RelativeToolTip": "Models\\StatusResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T06:33:14.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CandidateProfileService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\CandidateProfileService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\CandidateProfileService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\CandidateProfileService.cs",
+              "RelativeToolTip": "Services\\Service\\CandidateProfileService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:38:34.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CandidateProfile.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\CandidateProfile.cs",
+              "RelativeDocumentMoniker": "Models\\CandidateProfile.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\CandidateProfile.cs",
+              "RelativeToolTip": "Models\\CandidateProfile.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:01:28.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "VacancyExamResultService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\VacancyExamResultService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\VacancyExamResultService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\VacancyExamResultService.cs",
+              "RelativeToolTip": "Services\\Service\\VacancyExamResultService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:44:24.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "VacancyAnalysis.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\VacancyAnalysis.cs",
+              "RelativeDocumentMoniker": "Models\\VacancyAnalysis.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Models\\VacancyAnalysis.cs",
+              "RelativeToolTip": "Models\\VacancyAnalysis.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:06:58.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CandidateProfileRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\CandidateProfileRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\CandidateProfileRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\CandidateProfileRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\CandidateProfileRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:33:54.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TestService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\TestService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\TestService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\TestService.cs",
+              "RelativeToolTip": "Services\\Service\\TestService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:56:56.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ITestService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\ITestService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\ITestService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\ITestService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\ITestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:58:12.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CandidateDocumentService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\CandidateDocumentService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\CandidateDocumentService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\CandidateDocumentService.cs",
+              "RelativeToolTip": "Services\\Service\\CandidateDocumentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:07:48.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "TrainingProgramService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\TrainingProgramService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\TrainingProgramService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\TrainingProgramService.cs",
+              "RelativeToolTip": "Services\\Service\\TrainingProgramService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:09:45.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IApplicationRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IApplicationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\IApplicationRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IApplicationRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\IApplicationRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:16:10.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ITrainingProgramService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\ITrainingProgramService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\ITrainingProgramService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\ITrainingProgramService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\ITrainingProgramService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:11:29.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ITrainingProgramRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\ITrainingProgramRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\ITrainingProgramRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\ITrainingProgramRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\ITrainingProgramRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:56:04.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IRequiredDocumentService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IRequiredDocumentService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\IRequiredDocumentService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IRequiredDocumentService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\IRequiredDocumentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:06:43.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ITestRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\ITestRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\ITestRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\ITestRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\ITestRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:51:43.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IVacancyExamResultService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IVacancyExamResultService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\IVacancyExamResultService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IVacancyExamResultService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\IVacancyExamResultService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:44:39.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "VacancyExamResultRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\VacancyExamResultRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\VacancyExamResultRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\VacancyExamResultRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\VacancyExamResultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:45:34.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ICandidateDocumentService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\ICandidateDocumentService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\ICandidateDocumentService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\ICandidateDocumentService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\ICandidateDocumentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:10:00.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ICandidateDocumentRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\ICandidateDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\ICandidateDocumentRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\ICandidateDocumentRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\ICandidateDocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:06:10.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IVacancyExamResultRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IVacancyExamResultRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\IVacancyExamResultRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IVacancyExamResultRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\IVacancyExamResultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:48:38.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "RequiredDocumentRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\RequiredDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repos\\RequiredDocumentRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\Repos\\RequiredDocumentRepository.cs",
+              "RelativeToolTip": "Repositories\\Repos\\RequiredDocumentRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwDkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:33:46.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IVacancyExamService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IVacancyExamService.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceInterfaces\\IVacancyExamService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\ServiceInterfaces\\IVacancyExamService.cs",
+              "RelativeToolTip": "Services\\ServiceInterfaces\\IVacancyExamService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:36:06.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "VacancyExamService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\VacancyExamService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\VacancyExamService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\VacancyExamService.cs",
+              "RelativeToolTip": "Services\\Service\\VacancyExamService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA+wAgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T12:34:13.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "RequiredDocumentService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\RequiredDocumentService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\RequiredDocumentService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\RequiredDocumentService.cs",
+              "RelativeToolTip": "Services\\Service\\RequiredDocumentService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T11:07:59.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IVacancyExamRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IVacancyExamRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\IVacancyExamRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IVacancyExamRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\IVacancyExamRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:13:15.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20241203180811_ThirdMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241203180811_ThirdMigration.cs",
+              "ToolTip": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241203180811_ThirdMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:08:11.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ICandidateProfileRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\ICandidateProfileRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\ICandidateProfileRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\ICandidateProfileRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\ICandidateProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:34:26.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "IRequiredDocumentRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IRequiredDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\IRequiredDocumentRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IRequiredDocumentRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\IRequiredDocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:41:01.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\JwtService.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Services\\Service\\JwtService.cs",
+              "RelativeToolTip": "Services\\Service\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:30:32.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "IDocumentVerificationRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IDocumentVerificationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\IDocumentVerificationRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IDocumentVerificationRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\IDocumentVerificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T21:00:48.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoInterfaces\\IUserRepository.cs",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Repositories\\RepoInterfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoInterfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:46:07.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20241201173509_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241201173509_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241201173509_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:35:10.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20241130190313_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241130190313_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241130190313_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T19:03:13.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20241130185412_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241130185412_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241130185412_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:54:12.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20241130184208_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241130184208_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Man\\source\\repos\\Indian_Army_Recruitment\\Migrations\\20241130184208_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:42:08.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Indian_Army_Recruitment.csproj",
+              "DocumentMoniker": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Indian_Army_Recruitment.csproj",
+              "RelativeDocumentMoniker": "Indian_Army_Recruitment.csproj",
+              "ToolTip": "F:\\Indian_Army_Recruitment\\Indian_Army_Recruitment\\Indian_Army_Recruitment.csproj",
+              "RelativeToolTip": "Indian_Army_Recruitment.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T16:47:41.396Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

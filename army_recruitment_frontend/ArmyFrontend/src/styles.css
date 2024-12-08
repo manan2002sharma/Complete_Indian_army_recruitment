@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font-roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  body {
+    @apply bg-cover bg-center min-h-screen;
+    background-image: 'assests/logo.png';
+  }

@@ -1,0 +1,6 @@
+@Indian_Army_Recruitment_HostAddress = http://localhost:5162
+
+GET {{Indian_Army_Recruitment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,279 @@
+<!-- <div >
+    <div
+      class="bg-white border border-gray-300 rounded-lg shadow-md p-6 flex flex-col justify-between transition-all transform hover:scale-105 hover:shadow-lg"
+    >
+      <h3 class="text-xl font-semibold text-gray-800 mb-2">{{ program.title }}</h3>
+  
+      <h4 class="text-sm font-medium text-gray-600 mb-4">Training ID: {{ program.trainingId }}</h4>
+  
+      <div class="mb-4">
+        <p class="text-sm font-semibold text-gray-700">Application ID:</p>
+        <p class="text-sm text-gray-600">{{ program.applicationId }}</p>
+      </div>
+  
+      <div class="mb-4">
+        <p class="text-sm font-semibold text-gray-700">Location:</p>
+        <p class="text-sm text-gray-600">{{ program.location }}</p>
+      </div>
+  
+      <div class="mb-4">
+        <p class="text-sm font-semibold text-gray-700">Trainer:</p>
+        <p class="text-sm text-gray-600">{{ program.trainerName }}</p>
+      </div>
+  
+      <div class="mb-4">
+        <p class="text-sm font-semibold text-gray-700">Content:</p>
+        <p class="text-sm text-gray-600">{{ program.content }}</p>
+      </div>
+  
+      <div class="flex justify-between items-center mt-4">
+        <div>
+          <p class="text-sm font-semibold text-gray-700">Start Date:</p>
+          <p class="text-sm text-gray-600">{{ program.startDate | date: 'medium' }}</p>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-gray-700">End Date:</p>
+          <p class="text-sm text-gray-600">{{ program.endDate | date: 'medium' }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   -->
+ 
+  
+  <!-- <div>
+    <div class="bg-white border border-gray-300 rounded-lg shadow-md p-6 flex flex-col justify-between transition-all transform hover:scale-105 hover:shadow-lg">
+      <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">{{ program.title }}</h3>
+  
+      <h4 class="text-sm font-medium text-gray-600 mb-4 text-center">Training ID: {{ program.trainingId }}</h4>
+      <div class="mb-4">
+        <p class="text-sm font-semibold text-gray-700">Location:</p>
+        <ng-container *ngIf="isEditable; else readOnlyLocation">
+          <input
+            type="text"
+            [(ngModel)]="program.location"
+            class="w-full p-2 border rounded-md"
+          />
+        </ng-container>
+        <ng-template #readOnlyLocation>
+          <p class="text-sm text-gray-600">{{ program.location }}</p>
+        </ng-template>
+      </div>
+  
+      <div class="mb-4">
+        <p class="text-sm font-semibold text-gray-700">Trainer:</p>
+        <ng-container *ngIf="isEditable; else readOnlyTrainer">
+          <input
+            type="text"
+            [(ngModel)]="program.trainerName"
+            class="w-full p-2 border rounded-md"
+          />
+        </ng-container>
+        <ng-template #readOnlyTrainer>
+          <p class="text-sm text-gray-600">{{ program.trainerName }}</p>
+        </ng-template>
+      </div>
+  
+      <div class="mb-4">
+        <p class="text-sm font-semibold text-gray-700">Content:</p>
+        <ng-container *ngIf="isEditable; else readOnlyContent">
+          <textarea
+            [(ngModel)]="program.content"
+            class="w-full p-2 border rounded-md"
+            rows="3"
+          ></textarea>
+        </ng-container>
+        <ng-template #readOnlyContent>
+          <p class="text-sm text-gray-600">{{ program.content }}</p>
+        </ng-template>
+      </div>
+  
+      
+  
+      <div class="mt-4">
+        <p class="text-sm font-semibold text-gray-700">Status:</p>
+        <ng-container *ngIf="isEditable; else readOnlyStatus">
+          <select
+            [(ngModel)]="program.status"
+            class="w-full p-2 border rounded-md"
+          >
+            <option value="Scheduled">Scheduled</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Completed">Completed</option>
+          </select>
+        </ng-container>
+        <ng-template #readOnlyStatus>
+          <p class="text-sm text-gray-600">{{ program.status }}</p>
+        </ng-template>
+      </div>
+  
+      <div class="mt-4">
+        <p class="text-sm font-semibold text-gray-700">Remark:</p>
+        <ng-container *ngIf="isEditable; else readOnlyRemark">
+          <textarea
+            [(ngModel)]="program.remark"
+            class="w-full p-2 border rounded-md"
+            rows="3"
+          ></textarea>
+        </ng-container>
+        <ng-template #readOnlyRemark>
+          <p class="text-sm text-gray-600">{{ program.remark }}</p>
+        </ng-template>
+      </div>
+      <div class="flex justify-between items-center mt-4">
+        <div>
+          <p class="text-sm font-semibold text-gray-700">Start Date:</p>
+          <ng-container *ngIf="isEditable; else readOnlyStartDate">
+            <input
+              type="date"
+              [(ngModel)]="program.startDate"
+              class="w-full p-2 border rounded-md"
+            />
+          </ng-container>
+          <ng-template #readOnlyStartDate>
+            <p class="text-sm text-gray-600">{{ program.startDate | date: 'shortDate' }}</p>
+          </ng-template>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-gray-700">End Date:</p>
+          <ng-container *ngIf="isEditable; else readOnlyEndDate">
+            <input
+              type="date"
+              [(ngModel)]="program.endDate"
+              class="w-full p-2 border rounded-md"
+            />
+          </ng-container>
+          <ng-template #readOnlyEndDate>
+            <p class="text-sm text-gray-600">{{ program.endDate | date: 'shortDate' }}</p>
+          </ng-template>
+        </div>
+      </div>
+  
+      <button
+        *ngIf="isEditable"
+        (click)="updateProgram()"
+        class="mt-4 bg-blue-500 text-white p-2 rounded-md"
+      >
+        Update Training Program
+      </button>
+    </div>
+  </div>
+  
+ -->
+
+ <div>
+  <div class="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg shadow-md p-6 flex flex-col justify-between transition-all transform hover:scale-105 hover:shadow-lg">
+    <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2 text-center">{{ program.title }}</h3>
+
+    <h4 class="text-sm font-medium text-gray-600 dark:text-gray-400 mb-4 text-center">Training ID: {{ program.trainingId }}</h4>
+    <div class="mb-4">
+      <p class="text-sm font-semibold text-gray-700 dark:text-gray-300">Location:</p>
+      <ng-container *ngIf="isEditable; else readOnlyLocation">
+        <input
+          type="text"
+          [(ngModel)]="program.location"
+          class="w-full p-2 border dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 rounded-md"
+        />
+      </ng-container>
+      <ng-template #readOnlyLocation>
+        <p class="text-sm text-gray-600 dark:text-gray-400">{{ program.location }}</p>
+      </ng-template>
+    </div>
+
+    <div class="mb-4">
+      <p class="text-sm font-semibold text-gray-700 dark:text-gray-300">Trainer:</p>
+      <ng-container *ngIf="isEditable; else readOnlyTrainer">
+        <input
+          type="text"
+          [(ngModel)]="program.trainerName"
+          class="w-full p-2 border dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 rounded-md"
+        />
+      </ng-container>
+      <ng-template #readOnlyTrainer>
+        <p class="text-sm text-gray-600 dark:text-gray-400">{{ program.trainerName }}</p>
+      </ng-template>
+    </div>
+
+    <div class="mb-4">
+      <p class="text-sm font-semibold text-gray-700 dark:text-gray-300">Content:</p>
+      <ng-container *ngIf="isEditable; else readOnlyContent">
+        <textarea
+          [(ngModel)]="program.content"
+          class="w-full p-2 border dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 rounded-md"
+          rows="3"
+        ></textarea>
+      </ng-container>
+      <ng-template #readOnlyContent>
+        <p class="text-sm text-gray-600 dark:text-gray-400">{{ program.content }}</p>
+      </ng-template>
+    </div>
+
+    <div class="mt-4">
+      <p class="text-sm font-semibold text-gray-700 dark:text-gray-300">Status:</p>
+      <ng-container *ngIf="isEditable; else readOnlyStatus">
+        <select
+          [(ngModel)]="program.status"
+          class="w-full p-2 border dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 rounded-md"
+        >
+          <option value="Scheduled">Scheduled</option>
+          <option value="In Progress">In Progress</option>
+          <option value="Completed">Completed</option>
+        </select>
+      </ng-container>
+      <ng-template #readOnlyStatus>
+        <p class="text-sm text-gray-600 dark:text-gray-400">{{ program.status }}</p>
+      </ng-template>
+    </div>
+
+    <div class="mt-4">
+      <p class="text-sm font-semibold text-gray-700 dark:text-gray-300">Remark:</p>
+      <ng-container *ngIf="isEditable; else readOnlyRemark">
+        <textarea
+          [(ngModel)]="program.remark"
+          class="w-full p-2 border dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 rounded-md"
+          rows="3"
+        ></textarea>
+      </ng-container>
+      <ng-template #readOnlyRemark>
+        <p class="text-sm text-gray-600 dark:text-gray-400">{{ program.remark }}</p>
+      </ng-template>
+    </div>
+    <div class="flex justify-between items-center mt-4">
+      <div>
+        <p class="text-sm font-semibold text-gray-700 dark:text-gray-300">Start Date:</p>
+        <ng-container *ngIf="isEditable; else readOnlyStartDate">
+          <input
+            type="date"
+            [(ngModel)]="program.startDate"
+            class="w-full p-2 border dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 rounded-md"
+          />
+        </ng-container>
+        <ng-template #readOnlyStartDate>
+          <p class="text-sm text-gray-600 dark:text-gray-400">{{ program.startDate | date: 'shortDate' }}</p>
+        </ng-template>
+      </div>
+      <div>
+        <p class="text-sm font-semibold text-gray-700 dark:text-gray-300">End Date:</p>
+        <ng-container *ngIf="isEditable; else readOnlyEndDate">
+          <input
+            type="date"
+            [(ngModel)]="program.endDate"
+            class="w-full p-2 border dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 rounded-md"
+          />
+        </ng-container>
+        <ng-template #readOnlyEndDate>
+          <p class="text-sm text-gray-600 dark:text-gray-400">{{ program.endDate | date: 'shortDate' }}</p>
+        </ng-template>
+      </div>
+    </div>
+
+    <button
+      *ngIf="isEditable"
+      (click)="updateProgram()"
+      class="mt-4 bg-blue-500 dark:bg-blue-700 text-white p-2 rounded-md hover:bg-blue-600 dark:hover:bg-blue-600"
+    >
+      Update Training Program
+    </button>
+  </div>
+</div>
+

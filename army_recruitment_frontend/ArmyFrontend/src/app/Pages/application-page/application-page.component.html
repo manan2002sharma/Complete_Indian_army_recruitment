@@ -1,0 +1,154 @@
+<!-- <div class="m-4 shadow-md p-6 rounded-lg">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 text-center">Vacancy Exam</h2>
+    <app-vacancy-exam [vacancyId]="vacancyId" [applicationId]="applicationId"></app-vacancy-exam>
+  </div>
+  
+  <div class="m-4 shadow-md p-6 rounded-lg text-center">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Exam Results</h2>
+    <div *ngIf="examResults.length > 0; else noResults" class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div *ngFor="let result of examResults">
+        <app-vacancy-exam-result [result]="result"></app-vacancy-exam-result>
+      </div>
+    </div>
+    <ng-template #noResults>
+      <p class="text-lg text-gray-600">No exam results available.</p>
+    </ng-template>
+  </div>
+  
+  <div class="m-4 shadow-md p-6 rounded-lg">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 text-center">Submitted Documents</h2>
+    <div *ngIf="submittedDocuments.length > 0; else noDocs" class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div *ngFor="let document of submittedDocuments">
+        <app-document-submitted [document]="document"></app-document-submitted>
+      </div>
+    </div>
+    <ng-template #noDocs>
+      <p class="text-lg text-gray-600">No documents submitted.</p>
+    </ng-template>
+  </div>
+  
+  <div class="m-4 shadow-md p-6 rounded-lg text-center">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Test Data</h2>
+    <div *ngIf="testData.length > 0; else noTests" class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div *ngFor="let test of testData">
+        <app-test [test]="test"></app-test>
+      </div>
+    </div>
+    <ng-template #noTests>
+      <p class="text-lg text-gray-600">No test data available.</p>
+    </ng-template>
+  </div>
+  
+  <div class="m-4 shadow-md p-6 rounded-lg text-center">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Training Program</h2>
+    <div *ngIf="trainingData.length > 0; else noTraining" class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div *ngFor="let program of trainingData">
+        <app-training-program [program]="program"></app-training-program>
+      </div>
+    </div>
+    <ng-template #noTraining>
+      <p class="text-lg text-gray-600">No training programs available.</p>
+    </ng-template>
+  </div>
+   -->
+  
+
+
+   <div class="m-4 shadow-md p-6 rounded-lg dark:bg-gray-900 dark:text-white">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 text-center dark:text-white">Vacancy Exam</h2>
+    <app-vacancy-exam [vacancyId]="vacancyId" [applicationId]="applicationId"></app-vacancy-exam>
+  </div>
+  
+  <div class="m-4 shadow-md p-6 rounded-lg dark:bg-gray-900 dark:text-white text-center">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 dark:text-white">Exam Results</h2>
+    <div *ngIf="examResults.length > 0; else noResults" class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div *ngFor="let result of examResults">
+        <app-vacancy-exam-result [result]="result"></app-vacancy-exam-result>
+      </div>
+    </div>
+    <ng-template #noResults>
+      <p class="text-lg text-gray-600 dark:text-gray-400">No exam results available.</p>
+    </ng-template>
+  </div>
+  
+  <div class="m-4 shadow-md p-6 rounded-lg dark:bg-gray-900 dark:text-white">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 text-center dark:text-white">Submitted Documents</h2>
+    <div *ngIf="submittedDocuments.length > 0; else noDocs" class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div *ngFor="let document of submittedDocuments">
+        <app-document-submitted [document]="document"></app-document-submitted>
+      </div>
+    </div>
+    <ng-template #noDocs>
+      <p class="text-lg text-gray-600 dark:text-gray-400">No documents submitted.</p>
+    </ng-template>
+  </div>
+  
+  <div class="m-4 shadow-md p-6 rounded-lg text-center dark:bg-gray-900 dark:text-white">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 dark:text-white">Test Data</h2>
+    <div *ngIf="testData.length > 0; else noTests" class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div *ngFor="let test of testData">
+        <app-test [test]="test"></app-test>
+      </div>
+    </div>
+    <ng-template #noTests>
+      <p class="text-lg text-gray-600 dark:text-gray-400">No test data available.</p>
+    </ng-template>
+  </div>
+  
+  <div class="m-4 shadow-md p-6 rounded-lg text-center dark:bg-gray-900 dark:text-white">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 dark:text-white">Training Program</h2>
+    <div *ngIf="trainingData.length > 0; else noTraining" class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div *ngFor="let program of trainingData">
+        <app-training-program [program]="program"></app-training-program>
+      </div>
+    </div>
+    <ng-template #noTraining>
+      <p class="text-lg text-gray-600 dark:text-gray-400">No training programs available.</p>
+    </ng-template>
+  </div>
+  
+
+
+  <div class="p-4" *ngIf="role == 'Admin' || role == 'Recruiter' || role =='Medical Officer'">
+    <!-- Add Training Program -->
+    <form #trainingForm="ngForm" *ngIf="role == 'Admin' || role == 'Recruiter'" (ngSubmit)="addTrainingProgram(trainingForm)" class="p-4 border border-gray-900 rounded dark:bg-gray-800 dark:border-gray-600 dark:text-white">
+      <h3 class="text-lg font-semibold mb-2 text-center">Add Training Program</h3>
+  
+      <label for="title" class="block mb-1 font-medium">Title</label>
+      <input id="title" type="text" name="title" ngModel placeholder="Enter Title" required class="block w-full mb-2 p-2 border rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+  
+      <label for="location" class="block mb-1 font-medium">Location</label>
+      <input id="location" type="text" name="location" ngModel placeholder="Enter Location" required class="block w-full mb-2 p-2 border rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+  
+      <label for="startDate" class="block mb-1 font-medium">Start Date</label>
+      <input id="startDate" type="date" name="startDate" ngModel required class="block w-full mb-2 p-2 border rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+  
+      <label for="endDate" class="block mb-1 font-medium">End Date</label>
+      <input id="endDate" type="date" name="endDate" ngModel required class="block w-full mb-2 p-2 border rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+  
+      <label for="trainer" class="block mb-1 font-medium">Trainer</label>
+      <input id="trainer" type="text" name="trainerName" ngModel placeholder="Enter Trainer Name" required class="block w-full mb-2 p-2 border rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+  
+      <label for="content" class="block mb-1 font-medium">Content</label>
+      <textarea id="content" name="content" ngModel placeholder="Enter Training Content" class="block w-full mb-2 p-2 border rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white"></textarea>
+  
+      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 dark:bg-blue-700 dark:hover:bg-blue-600">Add Training</button>
+    </form>
+  
+    <!-- Add Test -->
+    <form #testForm="ngForm" *ngIf="role =='Medical Officer'" (ngSubmit)="addTest(testForm)" class="p-4 border border-gray-900 rounded mt-4 dark:bg-gray-800 dark:border-gray-600 dark:text-white">
+      <h3 class="text-lg font-semibold mb-2 text-center">Add Test</h3>
+  
+      <label for="testType" class="block mb-1 font-medium">Test Type</label>
+      <input id="testType" type="text" name="testType" ngModel placeholder="Enter Test Type" required class="block w-full mb-2 p-2 border rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+  
+      <label for="date" class="block mb-1 font-medium">Date</label>
+      <input id="date" type="date" name="date" ngModel required class="block w-full mb-2 p-2 border rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+  
+      <label for="testLocation" class="block mb-1 font-medium">Location</label>
+      <input id="testLocation" type="text" name="location" ngModel placeholder="Enter Test Location" required class="block w-full mb-2 p-2 border rounded dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+  
+      <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 dark:bg-green-700 dark:hover:bg-green-600">Add Test</button>
+    </form>
+  </div>
+  

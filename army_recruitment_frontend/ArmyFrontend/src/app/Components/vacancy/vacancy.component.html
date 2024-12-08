@@ -1,0 +1,104 @@
+<!-- <div *ngIf="vacancy"  class="max-w-lg mx-auto bg-white border border-gray-300 rounded-lg shadow-md p-6 mb-6 text-center transition-transform transform hover:scale-105 cursor-pointer">
+  <div class="card-header">
+    <h3 class="text-2xl font-semibold text-gray-800">{{ vacancy.title }}</h3>
+    <p class="text-sm text-gray-600">{{ vacancy.role }} | {{ vacancy.location }}</p>
+  </div>
+  <div class="card-body mt-4">
+    <p class="text-gray-800 font-medium">Eligibility Criteria:</p>
+    <p class="text-gray-600">{{ vacancy.eligibilityCriteria }}</p>
+
+    <p class="text-gray-800 font-medium mt-2">Salary:</p>
+    <p class="text-gray-600">{{ vacancy.salary | currency }}</p>
+
+    <p class="text-gray-800 font-medium mt-2">Status:</p>
+    <p class="text-gray-600">{{ vacancy.status }}</p>
+  </div>
+
+  <div class="card-footer mt-4 text-center">
+    <ng-container *ngIf="role === 'Admin' || role === 'Recruiter'; else applyButton">
+      <button *ngIf="role === 'Admin' || role === 'Recruiter'" (click)="viewApplications()" class="px-4 py-2  mt-2 bg-green-900 text-white font-semibold rounded-lg hover:bg-green-600 ml-2">
+        See Applications
+      </button>      
+      <button *ngIf="role === 'Admin'" (click)="navigateToVacancyAnalysis()" class="px-4 py-2  mt-2 bg-green-900 text-white font-semibold rounded-lg hover:bg-green-600 ml-2">
+        Analyze Vacancy
+      </button>
+      <button (click)="removeVacancy()" class="px-4 py-2 mt-2 bg-red-800 text-white font-semibold rounded-lg hover:bg-red-600">
+        Remove Vacancy
+      </button>
+    </ng-container>
+    <ng-template #applyButton>
+      <button (click)="openApplyOverlay()" class="px-4 py-2  mt-2 bg-green-900 text-white font-semibold rounded-lg hover:bg-green-600 ml-2">
+        Apply Now
+      </button>
+    </ng-template>
+  </div>
+</div>
+
+<app-vacancy-overlay
+  *ngIf="showOverlay"
+  [vacancyId]="vacancy?.vacancyId ?? null"
+  [vacancyName]="vacancy?.title ?? null"
+  (closeOverlay)="closeApplyOverlay($event)"
+></app-vacancy-overlay> -->
+
+<div *ngIf="vacancy" class="max-w-lg mx-auto bg-white border border-gray-300 rounded-lg shadow-md p-6 mb-6 text-center transition-transform transform hover:scale-105 cursor-pointer dark:bg-gray-800 dark:border-gray-700 dark:text-white">
+  <div class="card-header">
+    <h3 class="text-2xl font-semibold text-gray-800 dark:text-gray-100">{{ vacancy.title }}</h3>
+    <p class="text-sm text-gray-600 dark:text-gray-400">{{ vacancy.role }} | {{ vacancy.location }}</p>
+  </div>
+  <div class="card-body mt-4">
+    <p class="text-gray-800 font-medium dark:text-gray-100">Eligibility Criteria:</p>
+    <p class="text-gray-600 dark:text-gray-400">{{ vacancy.eligibilityCriteria }}</p>
+
+    <p class="text-gray-800 font-medium mt-2 dark:text-gray-100">Salary:</p>
+    <p class="text-gray-600 dark:text-gray-400">{{ vacancy.salary | currency }}</p>
+
+    <p class="text-gray-800 font-medium mt-2 dark:text-gray-100">Status:</p>
+    <p class="text-gray-600 dark:text-gray-400">{{ vacancy.status }}</p>
+  </div>
+
+  <div class="card-footer mt-4 text-center">
+    <!-- Show different buttons based on role -->
+    <ng-container *ngIf="role === 'Admin' || role === 'Recruiter' ||role==='Medical Officer'; else applyButton">
+      <div class="flex flex-col items-center space-y-2">
+        <div class="flex space-x-2">
+          <!-- See Applications Button -->
+          <button *ngIf="role === 'Admin' || role === 'Recruiter' ||role == 'Medical Officer'" 
+                  (click)="viewApplications()" 
+                  class="px-4 py-2 bg-green-900 text-white font-semibold rounded-lg hover:bg-green-600 dark:bg-green-800 dark:hover:bg-green-700">
+            See Applications
+          </button>
+          
+          <!-- Analyze Vacancy Button -->
+          <button *ngIf="role === 'Admin'" 
+                  (click)="navigateToVacancyAnalysis()" 
+                  class="px-4 py-2 bg-green-900 text-white font-semibold rounded-lg hover:bg-green-600 dark:bg-green-800 dark:hover:bg-green-700">
+            Analyze Vacancy
+          </button>
+        </div>
+  
+        <!-- Remove Vacancy Button -->
+        <button *ngIf="role === 'Admin' || role === 'Recruiter'" (click)="removeVacancy()" 
+                class="mt-2 px-4 py-2 text-white rounded-lg hover:bg-gray-600">
+          <img src="assets/delete.png" alt="Remove" class="h-6 w-6">
+        </button>
+      </div>
+    </ng-container>
+    
+    <ng-template #applyButton>
+      <button (click)="openApplyOverlay()" 
+              class="px-4 py-2 mt-2 bg-green-900 text-white font-semibold rounded-lg hover:bg-green-600 dark:bg-green-800 dark:hover:bg-green-700">
+        Apply Now
+      </button>
+    </ng-template>
+  </div>
+  
+</div>
+
+<app-vacancy-overlay
+  *ngIf="showOverlay"
+  [vacancyId]="vacancy?.vacancyId ?? null"
+  [vacancyName]="vacancy?.title ?? null"
+  (closeOverlay)="closeApplyOverlay($event)"
+></app-vacancy-overlay>
+

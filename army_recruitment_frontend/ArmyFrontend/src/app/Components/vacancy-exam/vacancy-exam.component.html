@@ -1,0 +1,110 @@
+<!-- <div *ngIf="errorMessage" class="text-red-600 text-center">
+    {{ errorMessage }}
+  </div>
+  
+  <div *ngIf="exams.length > 0; else noExams" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center ">
+    <div *ngFor="let exam of exams" class="max-w-lg mx-auto bg-white border border-gray-300 rounded-lg shadow-md p-6 mb-6 transition-all transform hover:scale-105 hover:shadow-lg">
+      <div class="card-header">
+        <h3 class="text-2xl font-semibold text-gray-800">{{ exam.examName }}</h3>
+        <p class="text-sm text-gray-600">Exam Date: {{ exam.examDate | date: 'medium' }}</p>
+      </div>
+      <div class="card-body mt-4">
+        <p class="text-gray-800 font-medium">Total Marks:</p>
+        <p class="text-gray-600">{{ exam.totalMarks }}</p>
+  
+        <p class="text-gray-800 font-medium mt-2">Passing Criteria:</p>
+        <p class="text-gray-600">{{ exam.passingCriteria }}</p>
+      </div>
+      <div *ngIf="isAdminOrRecruiter" class="mt-4">
+        <button (click)="openResultForm(exam.examId,exam.examName)" class="px-4 py-2 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600">
+          Post Result
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #noExams>
+    <p class="text-gray-500 text-center">No exams available for this vacancy.</p>
+  </ng-template>
+  
+  <div *ngIf="currentExamId" class="fixed z-10 inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div class="bg-white p-6 rounded-lg shadow-md w-96">
+      <h3 class="text-lg font-semibold mb-4">Post Exam Result</h3>
+      <form>
+        <label class="block mb-2">
+          <span class="text-gray-800">Score:</span>
+          <input type="number" [(ngModel)]="resultForm.score" name='score' class="w-full border border-gray-300 rounded p-2" />
+        </label>
+        <label class="block mb-4">
+          <span class="text-gray-800">Result Status:</span>
+          <input type="text" [(ngModel)]="resultForm.resultStatus" name='resultStatus' class="w-full border border-gray-300 rounded p-2" />
+        </label>
+        <div class="flex justify-end space-x-4">
+          <button type="button" (click)="currentExamId = ''" class="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg">
+            Cancel
+          </button>
+          <button type="button" (click)="postExamResult()" class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+ -->
+
+
+ <div *ngIf="errorMessage" class="text-red-600 text-center dark:text-red-400">
+    {{ errorMessage }}
+  </div>
+  
+  <div *ngIf="exams.length > 0; else noExams" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+    <div *ngFor="let exam of exams" class="max-w-lg mx-auto bg-white border border-gray-300 rounded-lg shadow-md p-6 mb-6 transition-all transform hover:scale-105 hover:shadow-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white">
+      <div class="card-header">
+        <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">{{ exam.examName }}</h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400">Exam Date: {{ exam.examDate | date: 'medium' }}</p>
+      </div>
+      <div class="card-body mt-4">
+        <p class="text-gray-800 font-medium dark:text-white">Total Marks:</p>
+        <p class="text-gray-600 dark:text-gray-400">{{ exam.totalMarks }}</p>
+  
+        <p class="text-gray-800 font-medium mt-2 dark:text-white">Passing Criteria:</p>
+        <p class="text-gray-600 dark:text-gray-400">{{ exam.passingCriteria }}</p>
+      </div>
+      <div *ngIf="isAdminOrRecruiter" class="mt-4">
+        <button (click)="openResultForm(exam.examId, exam.examName)" class="px-4 py-2 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700">
+          Post Result
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #noExams>
+    <p class="text-gray-500 text-center dark:text-gray-400">No exams available for this vacancy.</p>
+  </ng-template>
+  
+  <!-- Result Form Modal -->
+  <div *ngIf="currentExamId" class="fixed z-10 inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div class="bg-white p-6 rounded-lg shadow-md w-96 dark:bg-gray-800">
+      <h3 class="text-lg font-semibold mb-4 dark:text-white">Post Exam Result</h3>
+      <form>
+        <label class="block mb-2">
+          <span class="text-gray-800 dark:text-white">Score:</span>
+          <input type="number" [(ngModel)]="resultForm.score" name="score" class="w-full border border-gray-300 rounded p-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+        </label>
+        <label class="block mb-4">
+          <span class="text-gray-800 dark:text-white">Result Status:</span>
+          <input type="text" [(ngModel)]="resultForm.resultStatus" name="resultStatus" class="w-full border border-gray-300 rounded p-2 dark:bg-gray-700 dark:border-gray-600 dark:text-white" />
+        </label>
+        <div class="flex justify-end space-x-4">
+          <button type="button" (click)="currentExamId = ''" class="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg dark:bg-gray-600 dark:text-white">
+            Cancel
+          </button>
+          <button type="button" (click)="postExamResult()" class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  

@@ -1,0 +1,41 @@
+<!-- 
+  <div>
+    <div class="bg-white border border-gray-200 rounded-lg shadow-md transition-all transform hover:scale-105 hover:shadow-xl p-6 flex flex-col justify-between">
+      
+      <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">{{ result.examName }}</h3>
+      
+      <div class="text-sm text-gray-600 mb-4 text-center">
+        <span>{{ result.examResultId }}</span> | <span>{{ result.examId }}</span>
+      </div>
+      
+      <h3 class="text-xl font-semibold text-gray-800 mb-2">Score:</h3>
+      <p class="text-sm text-gray-600 mb-4">{{ result.score }}</p>
+  
+      <h3 class="text-xl font-semibold text-gray-800 mb-2">Result Status:</h3>
+      <p class="text-sm text-gray-600">{{ result.resultStatus }}</p>
+
+
+  </div> -->
+  
+  <div>
+    <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-md transition-all transform hover:scale-105 hover:shadow-xl p-6 flex flex-col justify-between">
+      
+      <!-- Exam Name as Header -->
+      <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2 text-center">{{ result.examName }}</h3>
+      
+      <!-- Exam Result ID and Exam ID with | in between -->
+      <div class="text-sm text-gray-600 dark:text-gray-400 mb-4 text-center">
+        <span>{{ result.examResultId }}</span> | <span>{{ result.examId }}</span>
+      </div>
+      
+      <!-- Score Section -->
+      <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">Score:</h3>
+      <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">{{ result.score }}</p>
+  
+      <!-- Result Status Section -->
+      <h3 class="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">Result Status:</h3>
+      <p class="text-sm text-gray-600 dark:text-gray-400">{{ result.resultStatus }}</p>
+    </div>
+  </div>
+  
+  
